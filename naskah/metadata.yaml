@@ -1,0 +1,23 @@
+---
+title: "Model, Sistem, dan Ruang yang Belum Terhubung"
+subtitle: "Kajian Terbuka terhadap SOP Implementasi BIM 2024 Kementerian PU dari Perspektif Arsitek Perencana"
+lang: id
+author: Arman Arisman
+fontsize: 11pt
+linestretch: 1.2
+geometry: paperwidth=6in, paperheight=9in, left=2.7cm, right=2.0cm, top=3.2cm, bottom=3.2cm, headsep=1.2cm
+documentclass: book
+classoption: oneside, openany
+numbersections: true
+pdf-engine: xelatex
+output: pdf
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyhead[LE,RO]{\small \thepage}
+  - \fancyhead[RE]{\small \leftmark}
+  - \fancyhead[LO]{\small \rightmark}
+  - \renewcommand{\headrulewidth}{0.5pt}
+  - \fancyfoot[C]{\scriptsize{\copyright\ 2025 Arman Arisman – Licensed under CC BY-SA 4.0}}
+---
